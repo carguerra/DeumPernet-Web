@@ -1,0 +1,42 @@
+/* Estilos de la hoja de disclaimer
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e1e1e1;
+}
+
+#principal{
+    background: grey;
+    /*background: linear-gradient(106deg, rgba(33,25,173,1) 8%, rgba(12,12,170,1) 36%, rgba(0,212,255,0.896796218487395) 87%);*/
+    width: auto;
+    margin: 2% auto;
+    text-align: center;
+}
+
+#cabecera1{
+    background: rgb(68, 67, 67);
+    /*background: linear-gradient(106deg, rgba(33,25,173,1) 8%, rgba(12,12,170,1) 36%, rgba(0,212,255,0.896796218487395) 87%);*/
+    line-height: 6em;
+    text-align: center;
+
+}
+
+#infcaja{
+    float: left;
+    background: rgb(29, 29, 29);
+    /*background: linear-gradient(106deg, rgba(33,25,173,1) 8%, rgba(12,12,170,1) 36%, rgba(0,212,255,0.896796218487395) 87%);*/
+    text-align: justify;
+    margin: 1%, 0;
+
+}
+
+.borra{clear: both;}
+
+p, h1, h2, h3, h4, h5, h6 {padding:  5px 10px;}
+p, h1, h2, h3, h4, h5, h6 {color: white;}
+/*h1 {color: rgb(209, 255, 5);}*/
