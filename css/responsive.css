@@ -6,16 +6,14 @@
 
 }
 
-
-
 @media only screen and (min-width: 768px) {
 	.nav-box {
 		display:block !important;
 		height:auto !important;
 		
 	}
-	
 	}
+
 @media only screen and (max-width: 1440px) {
 	.welcome-title {
 		font-size: 100px;
