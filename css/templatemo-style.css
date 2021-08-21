@@ -7,22 +7,22 @@ https://templatemo.com/tm-528-elegance
 ==================================================
 CSS SITEMAP >>>>
 
-  01. GENERAL CSS
-  02. HEADER CSS
-  03. SOCIAL ICONS CSS
-  04. WELCOME BLOCK CSS
-  05. ABOUT BLOCK CSS
-  06. SERVICES BLOCK CSS
-  07. WORK BLOCK CSS
-  08. CONTACT BLOCK CSS
-  09. TESTIMONOALS BLOCK CSS
-  10. SKILLS BLOCK CSS
+  01. GENERAL CSS                 General de la pagina.
+  02. HEADER CSS                  Encabezado.
+  03. SOCIAL ICONS CSS            Iconos de las redes sociales. 
+  04. WELCOME BLOCK CSS           Bloque de bienvenida
+  05. ABOUT BLOCK CSS             Bloque de aceca de nosotros
+  06. SERVICES BLOCK CSS          Bloque de los servicios
+  07. WORK BLOCK CSS              Bloque de trabajo
+  08. CONTACT BLOCK CSS           Bloque de contacto
+  09. TESTIMONOALS BLOCK CSS      Bloque de testimoniales
+  10. SKILLS BLOCK CSS            Bloque de logras
 
 
 ==================================================*/
 
 /*==============================================
-01. GENERAL CSS
+01. GENERAL CSS     General de la pagina
 ================================================*/
 
 html,
@@ -296,7 +296,7 @@ video {
 02. HEADER CSS
 ================================================*/
 #header {
-  padding:20px 0;
+  padding:5px 0; /* Barra principal blanca*/
   position: fixed;
   left:0;
   right:0;
@@ -327,7 +327,7 @@ a#logo {
   margin-left: 30px;
 }
 .navbar-nav li a {
-  color:#fff;
+  color:rgb(0, 0, 0);   /* Este apartado se refiere a las letras de los titulos  */
   font-size: 15px;
   text-decoration:none;
   display:block;
@@ -338,7 +338,7 @@ a#logo {
   content:'';
   display:block;
   height: 2px;
-  background:#fff;
+  background:rgb(49, 43, 43);   /*Es el color de la linea debajo de los enlaces del titulo*/
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   -webkit-transform:scale(0);
