@@ -293,7 +293,7 @@ video {
 
 
 /*==============================================
-02. HEADER CSS
+02. HEADER CSS  Es la cabecera de la pagina
 ================================================*/
 #header {
   padding:5px 0; /* Barra principal blanca*/
@@ -338,7 +338,7 @@ a#logo {
   content:'';
   display:block;
   height: 2px;
-  background:rgb(49, 43, 43);   /*Es el color de la linea debajo de los enlaces del titulo*/
+  background:rgb(49, 43, 43);   /*Es el color de la linea debajo de los enlaces del titulo hay que tener en cuenta las diferentes clases que hay*/
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   -webkit-transform:scale(0);
@@ -360,7 +360,7 @@ a#logo {
 }
 
 /*==============================================
-03. SOCIAL ICONS CSS
+03. SOCIAL ICONS CSS Iconos de las redes sociales
 ================================================*/
 #social-icons {
   padding:0;
@@ -394,7 +394,7 @@ a#logo {
   background-color: #fff;
 }
 /*==============================================
-04. WELCOME BLOCK CSS
+04. WELCOME BLOCK CSS Bloque de bien venida
 ================================================*/
 .welcome-box {
   font-size:20px;
@@ -451,7 +451,7 @@ a#logo {
 }
 
 /*==============================================
-05. ABOUT ME
+05. ABOUT ME Bloque que habla de la empresa
 ================================================*/
 .about-img {
   margin: 0 auto 40px;
@@ -516,7 +516,7 @@ a#logo {
 }
 
 /*==============================================
-06. SERVICES BLOCK CSS
+06. SERVICES BLOCK CSS Bloque de servicios
 ================================================*/
 .title-block {
   margin-bottom: 40px;
